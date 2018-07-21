@@ -1,7 +1,8 @@
 import * as express from 'express';
 import * as bodyParser from 'body-parser';
 
-const router = require('./router');
+import router from './router';
+
 const app = express();
 
 app.set('trust proxy', 1);
