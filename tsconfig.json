@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "skipLibCheck": true,
         "outDir": "./public/",
         "sourceMap": true,
         "noImplicitAny": true,
