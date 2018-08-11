@@ -1,5 +1,5 @@
-import user from './user';
+import { getUserById } from './user';
 
 export default {
-  getUserById: user.getUserById,
+  getUserById,
 };

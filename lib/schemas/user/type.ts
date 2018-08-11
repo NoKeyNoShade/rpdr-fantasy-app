@@ -3,6 +3,7 @@ import {
   GraphQLString,
   GraphQLObjectType,
   GraphQLList,
+  GraphQLObjectTypeConfig,
 } from 'graphql';
 
 import { leagueType } from '../leagues';
@@ -37,3 +38,4 @@ export default new GraphQLObjectType({
     },
   },
 });
+

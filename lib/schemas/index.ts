@@ -1,4 +1,4 @@
-import { GraphQLSchema, GraphQLObjectType} from 'graphql';
+import { GraphQLSchema, GraphQLObjectType } from 'graphql';
 import queryFields from './query';
 
 export default new GraphQLSchema({

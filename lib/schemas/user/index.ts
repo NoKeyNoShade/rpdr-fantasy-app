@@ -1,7 +1,5 @@
 import type from './type';
-import getUserById from './user';
+import _getUserById from './user';
 
-export default {
-  userType: type,
-  getUserById,
-};
+export { type as userType };
+export { _getUserById as getUserById};
