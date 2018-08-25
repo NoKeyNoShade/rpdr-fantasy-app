@@ -3,7 +3,6 @@ import {
   GraphQLString,
   GraphQLObjectType,
   GraphQLList,
-  GraphQLObjectTypeConfig,
 } from 'graphql';
 
 import { leagueType } from '../leagues';

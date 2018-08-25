@@ -5,7 +5,6 @@ import {
   GraphQLObjectType,
   GraphQLString,
   GraphQLList,
-  GraphQLFieldConfigMap,
 } from 'graphql';
 import { userType } from '../user';
 import pg from '../../postgres';
