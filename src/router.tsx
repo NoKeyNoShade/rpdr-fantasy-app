@@ -3,14 +3,10 @@ import {
     Route,
     Switch,
     BrowserRouter as Router,
-    Link,
-    match
 } from 'react-router-dom';
-import * as History from 'history';
 
 import App from './App';
 
-const history = History.createBrowserHistory();
 class RouterContainer extends React.Component<undefined, undefined> {
     render(): any {
         return (

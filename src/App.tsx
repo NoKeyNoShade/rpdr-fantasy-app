@@ -1,16 +1,18 @@
 import * as React from 'react';
 
-import { Hello } from './hello/Hello';
+import { Header } from './components';
+import types from './types';
 
 export default class App extends React.Component<{}, {}> {
-    render() {
+  render() {
       return (
-        <section className='app__container'>
-          <Hello
-          header='the project'
-          subHeader='is the one that you want'
+        <main className='app__container'>
+          <Header
+            header='Drag Race Fantasy League'
+            subHeader='Racers, start your engines.'
+            type={types.HeaderType.primary}
           />
-      </section>
+        </main>
     );
   }
 }
